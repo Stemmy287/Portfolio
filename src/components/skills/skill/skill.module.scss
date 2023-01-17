@@ -1,0 +1,31 @@
+@import "../../../common/style/sass/mixins";
+@import "../../../common/style/sass/variables";
+
+.skill {
+  width: 400px;
+  margin-bottom: 50px;
+  h3 {
+    margin: 0 30px 0 30px;
+    @include title(21px, $textColor, 700, none);
+    line-height: 20px;
+    position: relative;
+    &::after {
+      content: '';
+      position: absolute;
+      background-color: $secondTextColor;
+      width: 20px;
+      height: 20px;
+      right: 0;
+      border-radius: 100%;
+    }
+  }
+  .description {
+    margin: 30px 30px 30px 30px;
+    @include title(16px, $textColor, 400, none);
+    line-height: 1.7;
+  }
+  .line {
+    height: 2px;
+    background: #000;
+  }
+}

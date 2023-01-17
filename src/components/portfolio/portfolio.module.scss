@@ -1,0 +1,27 @@
+@import "../../common/style/sass/variables";
+@import "../../common/style/sass/mixins";
+
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  background-color: $mainColor;
+  min-height: 100vh;
+  .portfolioContainer {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    @media screen and (max-width: 1085px){
+      margin-bottom: 80px;
+    }
+    .projects {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      row-gap: 20px;
+      @media screen and (max-width: 1085px){
+        justify-content: center;
+      }
+    }
+  }
+}

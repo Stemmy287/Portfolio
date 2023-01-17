@@ -1,0 +1,28 @@
+@import "../../../common/style/sass/variables";
+@import "../../../common/style/sass/mixins";
+
+.inputContainer {
+  .groupForm {
+    span {
+      margin-bottom: 5px;
+      @include title(14px, $textColor, 700, uppercase);
+      letter-spacing: 0.05em;
+      text-indent: 30px;
+      display: block;
+      b {
+        color: #29a587;
+      }
+    }
+    input {
+      padding: 0 30px;
+      font-family: "Jost", sans-serif;
+      font-size: 16px;
+      color: #000;
+      resize: none;
+      outline: 0;
+      font-weight: 400;
+      border: 2px solid #000;
+      border-radius: 30px;
+    }
+  }
+}

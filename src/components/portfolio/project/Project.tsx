@@ -1,0 +1,32 @@
+import React, {FC} from 'react';
+import s from './project.module.scss'
+
+type ProjectPropsType = {
+    title: string
+    description: string
+    img: string
+}
+
+export const Project: FC<ProjectPropsType> = ({
+                                                  title,
+                                                  description,
+                                                  img
+                                              }) => {
+    return (
+        <div className={s.project}>
+            <div className={s.image}>
+                <a href="">
+                    <div className={s.img}></div>
+                </a>
+            </div>
+            <div className={s.description}>
+                <h5 className={s.name}>{title}</h5>
+                <div className={s.text}>
+                    <p>{description}</p>
+                </div>
+                <a href="" className={s.link}>See Project</a>
+            </div>
+        </div>
+    );
+};
+

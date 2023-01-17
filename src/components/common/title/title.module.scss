@@ -1,0 +1,31 @@
+@import "../../../common/style/sass/mixins";
+@import "../../../common/style/sass/variables";
+
+.titleContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+  h2 {
+    margin: 0;
+  }
+
+  .title {
+    @include title(44px, $textColor, 700, uppercase);
+    line-height: 1.3;
+    letter-spacing: 0.05em;
+  }
+
+  .my {
+    @include title(14px, $secondTextColor, 700, uppercase);
+    line-height: 1;
+  }
+
+  .postTitle {
+    @include title(30px, $textColor, 700, none);
+    font-family: 'Caveat', sans-serif;
+    letter-spacing: 0;
+    margin-left: 10px;
+  }
+}
+

@@ -1,0 +1,14 @@
+@import "../../../common/style/sass/mixins";
+
+.backText {
+  position: absolute;
+  top: 70%;
+  width: 200%;
+  @include title(350px, rgba(0, 0, 0, 0.02), bold, none);
+  font-family: 'Caveat', sans-serif;
+  line-height: 1px;
+  text-align: center;
+  white-space: nowrap;
+  pointer-events: none;
+  z-index: 0;
+}

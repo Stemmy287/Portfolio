@@ -1,0 +1,157 @@
+@import "../../common/style/sass/variables";
+@import "../../common/style/sass/mixins";
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  background-color: $mainColor;
+  .meContainer {
+    background-color: $mainColor;
+    min-height: 100vh;
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    @media screen and (max-width: 1100px){
+      flex-direction: column-reverse;
+      margin-bottom: 60px;
+    }
+    .info {
+      @media screen and (max-width: 870px){
+        text-align: center;
+      }
+      .titles {
+        .greetings {
+          @include title(15px, $textColor, 700, uppercase);
+          letter-spacing: 0.05em;
+
+          b {
+            color: $secondTextColor;
+          }
+        }
+
+        .name {
+          @include title(90px, #FFF, 700, uppercase);
+          line-height: 1.2;
+          letter-spacing: 0.05em;
+          margin: 15px 0 0 0;
+          text-shadow: 2px 2px $textColor,
+          -2px 2px #000, 2px -2px #000,
+          -2px -2px #000,
+          5px 5px 0px rgb(0 0 0 / 20%);;
+          @media screen and (max-width: 500px){
+            @include title(45px, #FFF, 700, uppercase);
+          }
+          b {
+            color: $secondTextColor;
+          }
+        }
+
+        .iAm {
+          @include title(15px, $textColor, 700, uppercase);
+          letter-spacing: 0.05em;
+
+          strong {
+            @include title(30px, $textColor, 700, none);
+            font-family: 'Caveat', sans-serif;
+            letter-spacing: 0;
+            margin-left: 10px;
+          }
+        }
+      }
+
+      .descriptionLinks {
+        max-width: 520px;
+        font-size: 18px;
+        padding: 40px 0 40px 0;
+
+        p {
+          margin: 0;
+          opacity: 0.8;
+        }
+
+        .links {
+          margin-top: 30px;
+
+          a {
+            margin-top: 0;
+            margin-right: 15px;
+            margin-left: 0;
+            position: relative;
+            display: inline-block;
+            vertical-align: top;
+
+            img {
+              width: 25px;
+            }
+          }
+
+        }
+      }
+
+      .buttons {
+        button {
+          height: 56px;
+          padding: 0 40px;
+          position: relative;
+          display: inline-block;
+          vertical-align: top;
+          font-family: 'Jost', sans-serif;
+          @include title(13px, $textColor, 700, uppercase);
+          border: 2px solid $textColor;
+          line-height: 52px;
+          letter-spacing: 0.05em;
+          outline: none !important;
+          cursor: pointer;
+          background: transparent;
+          box-shadow: 5px 5px rgb(0 0 0 / 20%);
+          -webkit-border-radius: 56px;
+        }
+
+        .mySkills {
+          padding-left: 70px;
+          height: 56px;
+          line-height: 56px;
+          position: relative;
+          display: inline-block;
+          vertical-align: top;
+          @include title(13px, $textColor, 700, uppercase);
+          letter-spacing: 0.05em;
+          text-decoration: none;
+
+          &::before {
+            content: '';
+            position: absolute;
+            left: -1px;
+            top: 50%;
+            margin-top: -1px;
+            height: 2px;
+            width: 40px;
+            background: $textColor;
+          }
+        }
+      }
+    }
+    .photo {
+      z-index: 1;
+      margin-top: 75px;
+      @media screen and (max-width: 1100px){
+        margin-bottom: 60px;
+      }
+      .circle {
+        width: 680px;
+        height: 680px;
+        z-index: 2;
+        background-color: #29a587;
+        border-radius: 100%;
+        @media screen and (max-width: 710px){
+          width: 350px;
+          height: 350px;
+        }
+      }
+    }
+  }
+}
+
+
+
+
