@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.672b39eb.css",
+    "main.js": "/Portfolio/static/js/main.394362cb.js",
+    "static/js/787.28cb0dcd.chunk.js": "/Portfolio/static/js/787.28cb0dcd.chunk.js",
+    "static/media/codewars-svgrepo-com.svg": "/Portfolio/static/media/codewars-svgrepo-com.8cb4193dc5c127df8ee1bdc8bb8364e1.svg",
+    "static/media/instagram-f-svgrepo-com.svg": "/Portfolio/static/media/instagram-f-svgrepo-com.9252bba3fc5de0bad8d1a55e684a55e3.svg",
+    "static/media/github-svgrepo-com.svg": "/Portfolio/static/media/github-svgrepo-com.8be961e5205a568468a70c0442c2f66d.svg",
+    "static/media/telegram-svgrepo-com.svg": "/Portfolio/static/media/telegram-svgrepo-com.b758440350c3e3a1b66be65e69289ec6.svg",
+    "index.html": "/Portfolio/index.html",
+    "main.672b39eb.css.map": "/Portfolio/static/css/main.672b39eb.css.map",
+    "main.394362cb.js.map": "/Portfolio/static/js/main.394362cb.js.map",
+    "787.28cb0dcd.chunk.js.map": "/Portfolio/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.672b39eb.css",
+    "static/js/main.394362cb.js"
+  ]
+}
