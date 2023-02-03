@@ -6,6 +6,7 @@
   background-color: $mainColor;
   min-height: 100vh;
   .skillsContainer {
+    position: relative;
     width: 75%;
     display: flex;
     flex-direction: column;

@@ -14,7 +14,9 @@ export const Info: FC<InfoPropsType> = ({
                                         }) => {
     return (
         <div className={s.infoItem}>
-            <div className={s.icon}></div>
+            <div className={s.icon}>
+                <img src={icon} alt=""/>
+            </div>
             <div className={s.desc}>
                 <div className={s.title}>
                     <span>{title}</span>

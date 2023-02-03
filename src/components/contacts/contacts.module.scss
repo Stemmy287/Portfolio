@@ -8,6 +8,7 @@
   min-height: 100vh;
 
   .contactsContainer {
+    position: relative;
     width: 60%;
     @media screen and (max-width: 484px){
       width: 100%;
@@ -68,6 +69,11 @@
             background: transparent;
             box-shadow: 5px 5px rgb(0 0 0 / 20%);
             -webkit-border-radius: 56px;
+            &:hover {
+              background-color: $secondTextColor;
+              color: $white;
+              transition: 0.5s;
+            }
           }
         }
       }

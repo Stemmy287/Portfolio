@@ -10,18 +10,18 @@
       text-indent: 30px;
       display: block;
       b {
-        color: #29a587;
+        color: $secondTextColor;
       }
     }
     input {
       padding: 0 30px;
       font-family: "Jost", sans-serif;
       font-size: 16px;
-      color: #000;
+      color: $textColor;
       resize: none;
       outline: 0;
       font-weight: 400;
-      border: 2px solid #000;
+      border: 2px solid $textColor;
       border-radius: 30px;
     }
   }

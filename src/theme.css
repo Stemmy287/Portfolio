@@ -1,0 +1,16 @@
+:root{
+    --text-color-light: #100f0f;
+    --description-text-color-light: #262626;
+    --main-color-light: #f0ebe3;
+    --noColor-light: #fff;
+
+    --text-color-dark: #fff;
+    --description-text-color-dark: #7a7a7a;
+    --main-color-dark: #232932;
+    --noColor-darl: #1d222a;
+
+    --text-color: var(--text-color-light);
+    --description-text-color: var(--description-text-color-light);
+    --main-color: var(--main-color-light);
+    --noColor: var(--noColor-light);
+}

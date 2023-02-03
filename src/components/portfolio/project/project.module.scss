@@ -3,7 +3,7 @@
 
 .project {
   box-sizing: border-box;
-  background-color: white;
+  background-color: $white;
   width: 400px;
   border-radius: 20px;
   padding: 30px 30px 30px 30px;
@@ -12,7 +12,7 @@
       height: 217px;
 
       border-radius: 18px;
-      background-color: #29a587;
+      background-color: $secondTextColor;
     }
   }
   .description {
@@ -38,7 +38,7 @@
         margin-left: 20px;
         content: '->';
         position: relative;
-        color: #29a587;
+        color: $secondTextColor;
       }
     }
   }

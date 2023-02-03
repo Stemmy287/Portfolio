@@ -2,6 +2,8 @@ import React, {useState} from 'react';
 import s from './portfolio.module.scss'
 import {Title} from "../common/title/title";
 import {Project} from "./project/Project";
+import {Fade} from "react-awesome-reveal";
+import BackText from "../common/backText/BackText";
 
 export const Portfolio = () => {
 
@@ -42,14 +44,20 @@ export const Portfolio = () => {
     )
 
     return (
-        <div className={s.mainContainer}>
+
+        <div id={'portfolio'} className={s.mainContainer}>
             <div className={s.portfolioContainer}>
-                <Title title={'Portfolio'} prePostTitle={'My'} postTitle={'Cases'}/>
-                <div className={s.projects}>
-                    {projectsMapping}
-                </div>
+                <Fade cascade={true} triggerOnce={true}>
+                    <Title title={'Portfolio'} prePostTitle={'My'} postTitle={'Cases'}/>
+                    <div className={s.projects}>
+                        {projectsMapping}
+                    </div>
+                </Fade>
+                <BackText title={'Portfolio'} style={{bottom: '150px'}}/>
             </div>
+
         </div>
+
     );
 };
 

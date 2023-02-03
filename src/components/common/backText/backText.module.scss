@@ -2,13 +2,13 @@
 
 .backText {
   position: absolute;
-  top: 70%;
-  width: 200%;
+  bottom: 250px;
   @include title(350px, rgba(0, 0, 0, 0.02), bold, none);
   font-family: 'Caveat', sans-serif;
   line-height: 1px;
-  text-align: center;
   white-space: nowrap;
   pointer-events: none;
-  z-index: 0;
+  @media screen and (max-width: 1050px){
+    display: none;
+  }
 }

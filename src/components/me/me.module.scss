@@ -5,6 +5,7 @@
   justify-content: center;
   background-color: $mainColor;
   .meContainer {
+    position: relative;
     background-color: $mainColor;
     min-height: 100vh;
     width: 75%;
@@ -30,16 +31,16 @@
         }
 
         .name {
-          @include title(90px, #FFF, 700, uppercase);
+          @include title(90px, $white, 700, uppercase);
           line-height: 1.2;
           letter-spacing: 0.05em;
           margin: 15px 0 0 0;
           text-shadow: 2px 2px $textColor,
-          -2px 2px #000, 2px -2px #000,
-          -2px -2px #000,
+          -2px 2px $textColor, 2px -2px $textColor,
+          -2px -2px $textColor,
           5px 5px 0px rgb(0 0 0 / 20%);;
           @media screen and (max-width: 500px){
-            @include title(45px, #FFF, 700, uppercase);
+            @include title(45px, $white, 700, uppercase);
           }
           b {
             color: $secondTextColor;
@@ -100,11 +101,15 @@
           border: 2px solid $textColor;
           line-height: 52px;
           letter-spacing: 0.05em;
-          outline: none !important;
           cursor: pointer;
           background: transparent;
           box-shadow: 5px 5px rgb(0 0 0 / 20%);
           -webkit-border-radius: 56px;
+          &:hover {
+            background-color: $secondTextColor;
+            color: $white;
+            transition: 0.5s;
+          }
         }
 
         .mySkills {
@@ -132,16 +137,16 @@
       }
     }
     .photo {
-      z-index: 1;
+
       margin-top: 75px;
       @media screen and (max-width: 1100px){
         margin-bottom: 60px;
       }
       .circle {
+
         width: 680px;
         height: 680px;
-        z-index: 2;
-        background-color: #29a587;
+        background-color: $secondTextColor;
         border-radius: 100%;
         @media screen and (max-width: 710px){
           width: 350px;
