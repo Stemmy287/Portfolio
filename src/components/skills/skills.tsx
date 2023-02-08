@@ -1,9 +1,9 @@
-import React, {useEffect, useState} from 'react';
+import React, {useState} from 'react';
 import s from './skills.module.scss'
 import {Title} from "../common/title/title";
 import {Skill} from "./skill/skill";
 import BackText from "../common/backText/BackText";
-import {Fade, Slide} from "react-awesome-reveal";
+import {Fade} from "react-awesome-reveal";
 
 export const Skills = () => {
 

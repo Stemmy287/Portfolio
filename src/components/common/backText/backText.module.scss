@@ -3,7 +3,7 @@
 .backText {
   position: absolute;
   bottom: 250px;
-  @include title(350px, rgba(0, 0, 0, 0.02), bold, none);
+  @include title(350px, rgba(0, 0, 0, 0.03), bold, none);
   font-family: 'Caveat', sans-serif;
   line-height: 1px;
   white-space: nowrap;

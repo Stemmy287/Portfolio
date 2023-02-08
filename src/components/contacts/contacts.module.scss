@@ -4,7 +4,7 @@
 .mainContainer {
   display: flex;
   justify-content: center;
-  background-color: $mainColor;
+  background-color: var(--main-color);
   min-height: 100vh;
 
   .contactsContainer {
@@ -22,10 +22,11 @@
       @media screen and (max-width: 1100px){
         flex-direction: column;
       }
-      .info {
+      .infoContainer {
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin-top: 25px;
       }
       .form {
         display: flex;
@@ -60,8 +61,8 @@
             display: inline-block;
             vertical-align: top;
             font-family: 'Jost', sans-serif;
-            @include title(13px, $textColor, 700, uppercase);
-            border: 2px solid $textColor;
+            @include title(13px, var(--text-color), 700, uppercase);
+            border: 2px solid var(--text-color);
             line-height: 52px;
             letter-spacing: 0.05em;
             outline: none !important;
@@ -71,7 +72,7 @@
             -webkit-border-radius: 56px;
             &:hover {
               background-color: $secondTextColor;
-              color: $white;
+              color: var(--noColor);
               transition: 0.5s;
             }
           }

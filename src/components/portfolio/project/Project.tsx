@@ -1,5 +1,6 @@
 import React, {FC} from 'react';
 import s from './project.module.scss'
+import {imagePropUtil} from "../../../common/utils/svgPropUtil";
 
 type ProjectPropsType = {
     title: string
@@ -16,7 +17,7 @@ export const Project: FC<ProjectPropsType> = ({
         <div className={s.project}>
             <div className={s.image}>
                 <a href="">
-                    <div className={s.img}></div>
+                  {imagePropUtil(img)}
                 </a>
             </div>
             <div className={s.description}>

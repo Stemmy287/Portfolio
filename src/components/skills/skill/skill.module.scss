@@ -6,7 +6,7 @@
   margin-bottom: 50px;
   h3 {
     margin: 0 30px 0 30px;
-    @include title(21px, $textColor, 700, none);
+    @include title(21px, var(--text-color), 700, none);
     line-height: 20px;
     position: relative;
     &::after {
@@ -21,11 +21,11 @@
   }
   .description {
     margin: 30px 30px 30px 30px;
-    @include title(16px, $textColor, 400, none);
+    @include title(16px, var(--text-color), 400, none);
     line-height: 1.7;
   }
   .line {
     height: 2px;
-    background: $textColor;
+    background: var(--text-color);
   }
 }

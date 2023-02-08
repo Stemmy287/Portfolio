@@ -3,14 +3,26 @@
     --description-text-color-light: #262626;
     --main-color-light: #f0ebe3;
     --noColor-light: #fff;
+    --border-button-light: #100f0f;
+    --shadow-light: #1c2128;
+    --me-info-light: #6f6e5c;
+    --menu-light: #fff;
 
-    --text-color-dark: #fff;
+    --text-color-dark: #f8f6f6;
     --description-text-color-dark: #7a7a7a;
     --main-color-dark: #232932;
-    --noColor-darl: #1d222a;
+    --noColor-dark: #181d25;
+    --border-button-dark: #a3a5a7;
+    --shadow-dark: #3b3f44;
+    --me-info-dark: #a9abae;
+    --menu-dark: #31363c;
 
     --text-color: var(--text-color-light);
     --description-text-color: var(--description-text-color-light);
     --main-color: var(--main-color-light);
     --noColor: var(--noColor-light);
+    --border-button: var(--border-button-light);
+    --shadow: var(--shadow-light);
+    --me-info: var(--me-info-light);
+    --menu: var(--menu-ligth);
 }

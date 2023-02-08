@@ -11,7 +11,7 @@
   }
 
   .title {
-    @include title(44px, $textColor, 700, uppercase);
+    @include title(44px, var(--text-color), 700, uppercase);
     line-height: 1.3;
     letter-spacing: 0.05em;
   }
@@ -22,7 +22,7 @@
   }
 
   .postTitle {
-    @include title(30px, $textColor, 700, none);
+    @include title(30px, var(--text-color), 700, none);
     font-family: 'Caveat', sans-serif;
     letter-spacing: 0;
     margin-left: 10px;

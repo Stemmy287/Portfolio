@@ -1,11 +1,14 @@
 import React, {FC} from 'react';
 import s from './info.module.scss'
+import {SvgPropUtil} from "../../../common/utils/svgPropUtil";
 
 type InfoPropsType = {
     title: string
     text: string
     icon: string
 }
+
+
 
 export const Info: FC<InfoPropsType> = ({
                                             title,
@@ -15,7 +18,7 @@ export const Info: FC<InfoPropsType> = ({
     return (
         <div className={s.infoItem}>
             <div className={s.icon}>
-                <img src={icon} alt=""/>
+              {SvgPropUtil(icon)}
             </div>
             <div className={s.desc}>
                 <div className={s.title}>

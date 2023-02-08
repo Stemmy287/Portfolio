@@ -10,15 +10,14 @@
     align-items: center;
     width: 56px;
     height: 56px;
-    background-color: $white;
-    border: 2px solid $textColor;
-    box-shadow: 5px 5px 0 0 rgb(0 0 0 / 20%);
+    background-color: var(--noColor);
+    border: 2px solid var(--text-color);
+    box-shadow: 5px 5px 0 0 var(--shadow);
     text-align: center;
     position: relative;
     border-radius: 50%;
-    img {
-      width: 25px;
-      height: 25px;
+    svg {
+      fill: var(--text-color);
     }
     &::after{
       margin-top: -1px;
@@ -28,19 +27,19 @@
       top: 50%;
       width: 40px;
       height: 2px;
-      background: $textColor;
+      background: var(--text-color);
     }
   }
   .desc {
       margin-left: 70px;
     .title {
-      @include title(30px, $textColor, 700, none);
+      @include title(30px, var(--text-color), 700, none);
       line-height: 1;
       font-family: 'Caveat', sans-serif;
       padding: 14px 0;
     }
     .text {
-      @include title(16px, $textColor, 400, none);
+      @include title(16px, var(--text-color), 400, none);
       line-height: 1.7;
       opacity: 0.8;
     }

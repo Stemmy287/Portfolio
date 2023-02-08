@@ -3,7 +3,7 @@
 .mainContainer {
   display: flex;
   justify-content: center;
-  background-color: $mainColor;
+  background-color: var(--main-color);
   min-height: 100vh;
   .skillsContainer {
     position: relative;
