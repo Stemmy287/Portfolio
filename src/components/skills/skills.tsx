@@ -9,40 +9,22 @@ export const Skills = () => {
 
     const [skills, setSkills] = useState([
         {
-            id: 1, title: 'React', description: 'Lorem ipsum dolor sit amet, ' +
-                'consectetur adipiscing elit, ' +
-                'sed do eiusmod tempor incididunt ut ' +
-                'labore et dolore magna aliqua.'
+            id: 1, title: 'React', description: 'is a declarative, efficient, and flexible JavaScript library for building user interfaces. It lets you compose complex UIs from small and isolated pieces of code called “components”.'
         },
         {
-            id: 2, title: 'Redux', description: 'Lorem ipsum dolor sit amet, ' +
-                'consectetur adipiscing elit, ' +
-                'sed do eiusmod tempor incididunt ut ' +
-                'labore et dolore magna aliqua.'
+            id: 2, title: 'Redux', description: 'is a library for managing and updating application state, using events called "actions". It serves as a centralized store for state that needs to be used across your entire application'
         },
         {
-            id: 3, title: 'TypeScript', description: 'Lorem ipsum dolor sit amet, ' +
-                'consectetur adipiscing elit, ' +
-                'sed do eiusmod tempor incididunt ut ' +
-                'labore et dolore magna aliqua.'
+            id: 3, title: 'TypeScript', description: ' is a syntactic superset of JavaScript which adds static typing. This basically means that TypeScript adds syntax on top of JavaScript, allowing developers to add types.'
         },
         {
-            id: 4, title: 'Rest API', description: 'Lorem ipsum dolor sit amet, ' +
-                'consectetur adipiscing elit, ' +
-                'sed do eiusmod tempor incididunt ut ' +
-                'labore et dolore magna aliqua.'
+            id: 4, title: 'Rest API', description: 'is an application programming interface (API or web API) that conforms to the constraints of REST architectural style and allows for interaction with RESTful web services'
         },
         {
-            id: 5, title: 'CSS3', description: 'Lorem ipsum dolor sit amet, ' +
-                'consectetur adipiscing elit, ' +
-                'sed do eiusmod tempor incididunt ut ' +
-                'labore et dolore magna aliqua.'
+            id: 5, title: 'CSS3', description: 'is the language for describing the presentation of Web pages, including colors, layout, and fonts. It allows one to adapt the presentation to different types of devices'
         },
         {
-            id: 6, title: 'HTML5', description: 'Lorem ipsum dolor sit amet, ' +
-                'consectetur adipiscing elit, ' +
-                'sed do eiusmod tempor incididunt ut ' +
-                'labore et dolore magna aliqua.'
+            id: 6, title: 'HTML5', description: 'is the most basic building block of the Web. It defines the structure of web content. Other technologies besides are generally used to describe a web page appearance or functionality'
         },
 
     ])

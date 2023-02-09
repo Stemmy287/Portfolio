@@ -11,27 +11,21 @@ export const Portfolio = () => {
     {
       id: 1,
       title: 'Social Network',
-      description: 'Lorem ipsum dolor sit amet,\n' +
-        'consectetur adipiscing elit,\n' +
-        'sed do eiusmod tempor incididunt ut labore et dolore.',
+      description: 'React, Redux, TypeScript, Axios, Redux-thunk, React-Router-dom',
       img: 'socNet',
       link: 'https://stemmy287.github.io/samurai-way/'
     },
     {
       id: 2,
       title: 'TodoList',
-      description: 'Lorem ipsum dolor sit amet,\n' +
-        'consectetur adipiscing elit,\n' +
-        'sed do eiusmod tempor incididunt ut labore et dolore.',
+      description: 'React, Redux, TypeScript, Formik, MUI, Axios,Redux-thunk, React-Router-dom. Yup',
       img: 'todoList',
       link: 'https://stemmy287.github.io/Todo-List/'
     },
     {
       id: 3,
       title: 'Blogger',
-      description: 'Lorem ipsum dolor sit amet,\n' +
-        'consectetur adipiscing elit,\n' +
-        'sed do eiusmod tempor incididunt ut labore et dolore.',
+      description: ' React, Redux, TypeScript, Formik, Axios,Redux-thunk, React-Router-dom, Yup',
       img: 'blogger',
       link: 'https://stemmy287.github.io/blogger/'
     },

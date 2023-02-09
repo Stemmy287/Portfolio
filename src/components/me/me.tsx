@@ -24,7 +24,11 @@ export const Me = () => {
                         </div>
                         <div className={s.descriptionLinks}>
                             <div>
-                                <p>From Belarus, Hrodna. I want to become a good developer, and find a good job.</p>
+                                <p>I'm a front-end developer with experience in creating SPA, using
+                                    React/Redux/TypeScript. Now I am improving my skills in this direction
+                                    and expanding them with new technologies. My free time I play with
+                                    the code on Codewars and improve my own English Open to your
+                                    suggestions!</p>
                             </div>
                             <div className={s.links}>
 
