@@ -14,7 +14,8 @@ export const Portfolio = () => {
       description: 'Lorem ipsum dolor sit amet,\n' +
         'consectetur adipiscing elit,\n' +
         'sed do eiusmod tempor incididunt ut labore et dolore.',
-      img: 'socNet'
+      img: 'socNet',
+      link: 'https://stemmy287.github.io/samurai-way/'
     },
     {
       id: 2,
@@ -22,7 +23,8 @@ export const Portfolio = () => {
       description: 'Lorem ipsum dolor sit amet,\n' +
         'consectetur adipiscing elit,\n' +
         'sed do eiusmod tempor incididunt ut labore et dolore.',
-      img: 'todoList'
+      img: 'todoList',
+      link: 'https://stemmy287.github.io/Todo-List/'
     },
     {
       id: 3,
@@ -30,7 +32,8 @@ export const Portfolio = () => {
       description: 'Lorem ipsum dolor sit amet,\n' +
         'consectetur adipiscing elit,\n' +
         'sed do eiusmod tempor incididunt ut labore et dolore.',
-      img: 'blogger'
+      img: 'blogger',
+      link: 'https://stemmy287.github.io/blogger/'
     },
 
   ])
@@ -41,6 +44,7 @@ export const Portfolio = () => {
       title={el.title}
       description={el.description}
       img={el.img}
+      link={el.link}
     />
   )
 

@@ -3,6 +3,7 @@ import s from './me.module.scss';
 import {Fade} from "react-awesome-reveal";
 import BackText from "../common/backText/BackText";
 import photo from '../../common/icons/photo_2022-04-28_22-02-17-removebg.png'
+import CV from '../../common/docs/EugeneLipasenka.pdf'
 
 export const Me = () => {
     return (
@@ -62,8 +63,8 @@ export const Me = () => {
                             </div>
                         </div>
                         <div className={s.buttons}>
-                            <button>download cv</button>
-                            <a href="#" className={s.mySkills}>my skills</a>
+                            <a href={CV} download><button>download cv</button></a>
+                            <a href={CV} download className={s.mySkills}>my skills</a>
                         </div>
                     </div>
                     <div className={s.photo}>
