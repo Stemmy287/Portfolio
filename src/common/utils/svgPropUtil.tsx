@@ -1,7 +1,7 @@
 import React from "react";
 import socNet from '../icons/social-network-app.png'
 import todoList from '../icons/feature-pic-todo-list-blog.png'
-import blogger from '../icons/images.png'
+import cards from '../icons/Learning.jpg.webp'
 
 export const SvgPropUtil = (svgName: string) => {
   return (
@@ -35,7 +35,7 @@ export const imagePropUtil = (imageName: string) => {
         <img src={socNet} alt=""/>) ||
     (imageName === 'todoList' &&
         <img src={todoList} alt=""/>) ||
-    (imageName === 'blogger' &&
-        <img src={blogger} alt=""/>)
+    (imageName === 'cards' &&
+        <img src={cards} alt=""/>)
   )
 }

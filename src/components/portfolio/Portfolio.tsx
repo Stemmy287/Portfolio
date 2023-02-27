@@ -10,10 +10,10 @@ export const Portfolio = () => {
   const [projects, setProjects] = useState([
     {
       id: 1,
-      title: 'Social Network',
-      description: 'React, Redux, TypeScript, Axios, Redux-thunk, React-Router-dom',
-      img: 'socNet',
-      link: 'https://stemmy287.github.io/samurai-way/'
+      title: 'Cards',
+      description: ' React, Redux, TypeScript, Formik, Axios, Redux-thunk, React-Router-dom, Yup, MUI, Sass',
+      img: 'cards',
+      link: 'https://viziter25.github.io/cards/'
     },
     {
       id: 2,
@@ -24,12 +24,11 @@ export const Portfolio = () => {
     },
     {
       id: 3,
-      title: 'Blogger',
-      description: ' React, Redux, TypeScript, Formik, Axios,Redux-thunk, React-Router-dom, Yup',
-      img: 'blogger',
-      link: 'https://stemmy287.github.io/blogger/'
-    },
-
+      title: 'Social Network',
+      description: 'React, Redux, TypeScript, Axios, Redux-thunk, React-Router-dom',
+      img: 'socNet',
+      link: 'https://stemmy287.github.io/samurai-way/'
+    }
   ])
 
   const projectsMapping = projects.map(el =>
