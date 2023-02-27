@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.a91e2f83.css",
-    "main.js": "/Portfolio/static/js/main.cd7fd9f7.js",
+    "main.css": "/Portfolio/static/css/main.7bbbef90.css",
+    "main.js": "/Portfolio/static/js/main.a206a3e3.js",
     "static/js/787.28cb0dcd.chunk.js": "/Portfolio/static/js/787.28cb0dcd.chunk.js",
     "static/media/photo_2022-04-28_22-02-17-removebg.png": "/Portfolio/static/media/photo_2022-04-28_22-02-17-removebg.41ea6f1282e2f82fca42.png",
     "static/media/EugeneLipasenka.pdf": "/Portfolio/static/media/EugeneLipasenka.72d1b24a0f98d9a6cb3a.pdf",
@@ -11,12 +11,12 @@
     "index.html": "/Portfolio/index.html",
     "static/media/sun-1-svgrepo-com.svg": "/Portfolio/static/media/sun-1-svgrepo-com.a702af1161281565b230341cef0e2815.svg",
     "static/media/moon-02-svgrepo-com.svg": "/Portfolio/static/media/moon-02-svgrepo-com.8f50882e4e6386fea031907e9cd3fe7f.svg",
-    "main.a91e2f83.css.map": "/Portfolio/static/css/main.a91e2f83.css.map",
-    "main.cd7fd9f7.js.map": "/Portfolio/static/js/main.cd7fd9f7.js.map",
+    "main.7bbbef90.css.map": "/Portfolio/static/css/main.7bbbef90.css.map",
+    "main.a206a3e3.js.map": "/Portfolio/static/js/main.a206a3e3.js.map",
     "787.28cb0dcd.chunk.js.map": "/Portfolio/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a91e2f83.css",
-    "static/js/main.cd7fd9f7.js"
+    "static/css/main.7bbbef90.css",
+    "static/js/main.a206a3e3.js"
   ]
 }
