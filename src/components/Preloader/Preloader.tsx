@@ -13,7 +13,7 @@ export const Preloader = () => {
     if (!isPreloader) {
       body.style.overflow = 'hidden'
     } else {
-      body.style.overflow = 'auto'
+        body.style.overflow = 'auto'
     }
 
   return (

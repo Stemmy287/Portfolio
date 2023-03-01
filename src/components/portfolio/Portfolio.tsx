@@ -53,7 +53,6 @@ export const Portfolio = () => {
         </Fade>
         <BackText title={'Portfolio'} style={{bottom: '150px'}}/>
       </div>
-
     </div>
 
   );

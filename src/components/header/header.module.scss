@@ -20,7 +20,7 @@
       color: $secondTextColor;
     }
     .buttonMenu {
-      svg {
+      svg * {
         fill: var(--text-color);
         cursor: pointer;
       }
@@ -60,7 +60,7 @@
       position: absolute;
       top: 30px;
       right: 30px;
-      svg {
+      svg * {
         stroke: var(--text-color);
         cursor: pointer;
       }
