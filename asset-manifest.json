@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.3776e657.css",
-    "main.js": "/Portfolio/static/js/main.c7dfd7a3.js",
+    "main.js": "/Portfolio/static/js/main.ea0b4c50.js",
     "static/js/787.28cb0dcd.chunk.js": "/Portfolio/static/js/787.28cb0dcd.chunk.js",
     "static/media/photo_2022-04-28_22-02-17-removebg.png": "/Portfolio/static/media/photo_2022-04-28_22-02-17-removebg.41ea6f1282e2f82fca42.png",
-    "static/media/EugeneLipasenka.pdf": "/Portfolio/static/media/EugeneLipasenka.72d1b24a0f98d9a6cb3a.pdf",
+    "static/media/EugeneLipasenka.pdf": "/Portfolio/static/media/EugeneLipasenka.001c685d4027f2e290a0.pdf",
     "static/media/social-network-app.png": "/Portfolio/static/media/social-network-app.18ff4ab8d8a4ea725047.png",
     "static/media/feature-pic-todo-list-blog.png": "/Portfolio/static/media/feature-pic-todo-list-blog.f7fba192a0c78b3f43d5.png",
     "static/media/Learning.jpg.webp": "/Portfolio/static/media/Learning.jpg.b0683e82c4c2b17ced4d.webp",
@@ -21,11 +21,11 @@
     "static/media/burger-menu-svgrepo-com.svg": "/Portfolio/static/media/burger-menu-svgrepo-com.7be9e346e8fac35bc2b9899789de58ca.svg",
     "static/media/close-square-svgrepo-com.svg": "/Portfolio/static/media/close-square-svgrepo-com.00a1b4a41fa10d4306d1b31399ae755e.svg",
     "main.3776e657.css.map": "/Portfolio/static/css/main.3776e657.css.map",
-    "main.c7dfd7a3.js.map": "/Portfolio/static/js/main.c7dfd7a3.js.map",
+    "main.ea0b4c50.js.map": "/Portfolio/static/js/main.ea0b4c50.js.map",
     "787.28cb0dcd.chunk.js.map": "/Portfolio/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3776e657.css",
-    "static/js/main.c7dfd7a3.js"
+    "static/js/main.ea0b4c50.js"
   ]
 }
