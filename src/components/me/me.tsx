@@ -3,7 +3,7 @@ import s from './me.module.scss';
 import {Fade} from "react-awesome-reveal";
 import BackText from "../common/backText/BackText";
 import photo from '../../common/icons/photo_2022-04-28_22-02-17-removebg.png'
-import CV from '../../common/docs/EugeneLipasenka.pdf'
+import CV from '../../common/docs/EugeneLipatsenka.pdf'
 import {ReactComponent as GithubLogo} from "../../common/icons/github-svgrepo-com.svg";
 import {ReactComponent as CodeWarsLogo} from "../../common/icons/codewars-svgrepo-com.svg";
 import {ReactComponent as TelegramLogo} from "../../common/icons/telegram-svgrepo-com.svg";
