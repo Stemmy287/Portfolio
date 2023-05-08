@@ -28,8 +28,8 @@ export const Me = () => {
             </div>
             <div className={s.descriptionLinks}>
               <div>
-                <p>I'm a front-end developer with experience in creating SPA, using
-                  React/Redux/TypeScript. Now I am improving my skills in this direction
+                <p>I'm a front-end developer with experience in creating web app.
+                  Now I am improving my skills in this direction
                   and expanding them with new technologies. My free time I play with
                   the code on Codewars and improve my own English Open to your
                   suggestions!</p>
